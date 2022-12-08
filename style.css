@@ -27,6 +27,7 @@
 
 .small_textanator{
   font-size: x-small;
+  color: yellow; 
 }
 
 /* Change the color of links on hover */
@@ -224,4 +225,16 @@
   font-synthesis: style;
   color:whitesmoke;
   font-size:x-large;
+}
+
+.update-header{
+  background-color: white;
+}td, th {
+  border: 8px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+ 
 }
