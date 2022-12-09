@@ -238,3 +238,33 @@
 tr:nth-child(even) {
  
 }
+
+
+.bottomizer{
+  bottom: 10px;
+}
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+}
+  @media(min-aspect-ratio:16/9){
+    .back-video{
+      width: 100%;
+      height: auto;
+    }
+  }
+  @media(max-aspect-ratio:16/9){
+    .back-video{
+      width: auto;
+      height: 100%;
+    }
+  }
+  @media(max-aspect-ratio:767){
+    .back-video{
+      width: auto;
+      height: auto;
+    }
+  }
