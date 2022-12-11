@@ -23,6 +23,8 @@ Sniper.html - Provides info about the sniper class
 
 Spy.html - Provides info about the spy class
 
+Inspirations - https://www.teamfortress.com/index.php
+
 
 
 
